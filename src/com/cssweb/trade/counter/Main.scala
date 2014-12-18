@@ -1,3 +1,5 @@
+package com.cssweb.trade.counter
+
 
 
 object Main {
@@ -5,7 +7,7 @@ object Main {
 	{
 		println("hello scala")
 
-	//	val person = new Person("chen", "haifeng");
+	//	val person = new com.cssweb.trade.counter.Person("chen", "haifeng");
 	//	println(person);
 	}
 }

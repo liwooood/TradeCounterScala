@@ -1,3 +1,5 @@
+package com.cssweb.trade.counter
+
 /*
 scalac hello.scala
 scala hello
