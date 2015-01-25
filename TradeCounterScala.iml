@@ -7,7 +7,19 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.11.1" level="application" />
-    <orderEntry type="library" name="scala-sdk-2.11.1 (2)" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.11.5" level="application" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://E:/akka-2.3.9/lib/akka" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://E:/akka-2.3.9/lib/akka" />
+        </SOURCES>
+        <jarDirectory url="file://E:/akka-2.3.9/lib/akka" recursive="false" />
+        <jarDirectory url="file://E:/akka-2.3.9/lib/akka" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

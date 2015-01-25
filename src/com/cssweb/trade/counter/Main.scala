@@ -1,20 +1,18 @@
 package com.cssweb.trade.counter
 
+import akka.actor.{Props, ActorSystem}
+import com.cssweb.trade.common.Message
 
 
-object Main {
-	def main(args : Array[String]):Unit=
+object Main extends App{
+	//def main(args : Array[String]):Unit=
 	{
-		println("hello scala")
+		val actorSystem = ActorSystem("HelloRemoteSystem");
 
-	//	val person = new com.cssweb.trade.counter.Person("chen", "haifeng");
-	//	println(person);
+		val actorHello = actorSystem.actorOf(Props[HelloActor], name = "RemoteActor");
+		actorHello ! Message("server is running...")
+
 	}
 }
 
-
-/*
-scalac hello.scala
-scala hello
-*/
 
